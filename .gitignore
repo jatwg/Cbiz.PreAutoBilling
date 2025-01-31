@@ -82,3 +82,7 @@ FakesAssemblies/
 
 # Local History for Visual Studio
 .localhistory/
+
+# Logs
+logs/
+*.log
