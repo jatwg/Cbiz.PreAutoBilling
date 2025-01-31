@@ -12,7 +12,7 @@ namespace Cbiz.PreAutoBilling
         static async Task Main(string[] args)
         {
             // Load NLog configuration
-            LogManager.LoadConfiguration("nlog.config");
+            LogManager.Setup().LoadConfigurationFromFile("nlog.config");
             
             try
             {
